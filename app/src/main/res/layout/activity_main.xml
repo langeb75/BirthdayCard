@@ -15,17 +15,17 @@
         android:id="@+id/HappyBirthday"
         android:text="Happy Birthday"
         android:fontFamily="sans-serif-light"
-        android:textColor="#ffffff"
+        android:textColor="#FFFFFF"
         android:textSize="33dp"
         android:layout_centerHorizontal="true"
-        android:padding="10dp"
+        android:layout_margin="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
         android:text="Brennan and Jaxson"
         android:textSize="33dp"
-        android:textColor="#ffffff"
+        android:textColor="#FFFFFF"
         android:fontFamily="sans-serif-light"
         android:layout_below="@id/HappyBirthday"
         android:layout_centerHorizontal="true"
@@ -39,8 +39,7 @@
         android:textColor="#ffffff"
         android:fontFamily="sans-serif-light"
         android:textSize="33dp"
-        android:paddingRight="22dp"
-        android:paddingBottom="22dp"
+        android:layout_margin="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         />
